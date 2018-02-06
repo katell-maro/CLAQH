@@ -1,0 +1,39 @@
+@font-face{
+    font-family: "Roboto";
+    src : url("../POLICE/Roboto.ttf/Roboto-light.ttf") format("truetype");
+
+}
+body {
+    font-family : "Roboto";
+    color : #353d76;
+    background-color: #e4e5f0;
+}
+h1 {
+    margin-left: 40px;
+}
+h2 {
+    margin-left: 40px;
+}
+p{
+    margin-left: 40px;
+}
+a {
+    text-decoration : underline;
+    color : #353d76
+}
+a:visited {
+    text-decoration: underline;
+    color : #181d40;
+}
+a:hover {
+    text-decoration: underline;
+    color :rgb(39, 143, 175);
+}
+a:active {
+    text-decoration: underline;
+    color: rgb(39, 143, 175);
+}
+.def {
+    margin-left: 40px;
+    color : #181d40;
+}

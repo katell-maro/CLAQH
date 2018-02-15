@@ -1,0 +1,29 @@
+body {
+	background-image : url("../IMG/accueil.jpeg");
+	background-position : center;
+	background-attachment: fixed;
+	background-repeat : no-repeat;
+	width: 100vw;
+	height: 100vh;
+}
+
+.titre {
+	display : flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items : center;
+	height : 100%;
+}
+
+h1, p {
+	color : white;
+	text-align : center;
+}
+
+h1 {
+	font-size : 60px;
+}
+
+p {
+	font-size : 40px;
+}

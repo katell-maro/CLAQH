@@ -12,7 +12,7 @@
 	</head>
 	
 	<body>
-			
+        <?php include_once 'navigation.html'; ?>	
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 col-sm-3 col-xs-2">

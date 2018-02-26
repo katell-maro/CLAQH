@@ -13,6 +13,7 @@
 
 
 	<body>
+        <?php include_once 'navigation.html'; ?>
 		<div class="titre">
 			<h1> CLAQH </h1>
 			<p> Contamination polymétallique des Lacs Aquitains et impacts Humains <p>

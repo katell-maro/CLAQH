@@ -12,6 +12,7 @@
 
 
 	<body>
+        <?php include_once 'navigation.html'; ?>
 		<object name="foo" type="text/html" data="navigation.html"></object>
 		<div class="container">
 			<div class="row">

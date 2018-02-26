@@ -16,6 +16,7 @@ h2 {
 }
 p{
     margin-left: 40px;
+    margin-right: 100px;
     text-align: justify
 }
 a {
@@ -41,4 +42,20 @@ a:active {
 
 object{
     width:100%;
+}
+
+hr {
+    border: none;
+    border-bottom: 2px solid #353d76; /* Ou border-top */
+    width : 800px;
+}
+
+#textVolet {
+    margin-right :0px;
+}
+
+.ligneVolet {
+    border: none;
+    border-bottom: 2px solid #353d76; /* Ou border-top */
+    width : 650px;
 }

@@ -42,3 +42,8 @@ a:active {
 object{
     width:100%;
 }
+
+#titre_lac{
+    border-top : 1px solid black;
+    padding-left:20px;
+}

@@ -13,7 +13,8 @@
         </head>
     
         <body>
-            <object name="foo" type="text/html" data="navigation.html"></object>
+            <?php include_once 'navigation.html'; ?>
+            
             <div class="jumbotron">
                 <div class="row">
                     <div class="col-lg-offset-1 col-lg-3">

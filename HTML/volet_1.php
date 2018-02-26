@@ -12,7 +12,7 @@
 	</head>
 	
 	<body>
-			
+        <?php include_once 'navigation.html'; ?>	
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 col-sm-3 col-xs-2">
@@ -57,6 +57,6 @@
 		</div>
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
 	</body>
 </html>

@@ -12,7 +12,8 @@
 
 
 	<body>
-		<object name="foo" type="text/html" data="navigation.html"></object>
+        <?php // include_once 'navigation.html'; ?>
+		
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">

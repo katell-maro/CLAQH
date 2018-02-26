@@ -13,42 +13,43 @@
     </head>
 
     <body>
-        <object name="foo" type="text/html" data="navigation.html"></object>
+        <?php include_once 'navigation.html'; ?>
+        
         <div class="jumbotron">
             <div class="row">
                 <div class="col-lg-offset-1 col-lg-3">
-                    <img class='img-responsive' src="../IMG/lac-L.jpg"/>
+                    <img class='img-responsive' src="../IMG/lac-CH.jpg"/>
                     <br/><br/>
-                    <img src="../IMG/carte-L.png" height=370 width=470/>
+                    <img src="../IMG/carte-CH.jpg" height=470 width=470/>
                 </div>
                 <div class="col-lg-offset-1 col-lg-6 col-lg-offset-1">
-                    <h2>Lac de Lacanau ———————————————— </h2> 
+                    <h2>Lac de Carcans-Hourtin ———————————— </h2> 
                     
                     <br/>
                     <br/>
                     <p style="text-align:justify;">
-                        Le lac de Lacanau, aussi appelé Étang de Lacanau, est situé sur la commune de Lacanau. Ce lac est long de 7 km sur 3 de large. Parmi les lacs étudiés, il est le deuxième en partant du Nord. 
-                        Ce lac est relié au lac de Carcans-Hourtin (au nord) et au bassin d’Arcachon (au sud) par le canal des Etangs.
+                        Il s’agit du plus grand lac d’eau douce de France. Parmi les quatre lacs étudiés, il est celui situé le plus au nord.  Ce lac s’étend sur 18 km de long et 5 km de large parallèlement à la côte atlantique, de la commune d’Hourtin (au Nord) à celle de Carcans (au Sud).
+                        Le lac de Carcans-Hourtin communique avec le lac de Lacanau grâce au canal des Etangs.                        
                     </p>
                     <br/>
                     <p>
-                        <a href="http://aappma-lacanau.over-blog.fr/"/>AAPPMA</a> (Association Agréée pour la Pêche et la Protection du Milieu Aquatique).
+                        <a href="https://aappmacarcans.wordpress.com/"/>AAPPMA</a> (Association Agréée pour la Pêche et la Protection du Milieu Aquatique)
                     </p>
                     <br/>
                     <p>
                         <!-- tableau -->
                         <table class="table table-bordered table-striped table-condensed">
                             <caption>
-                                <strong>Caractéristiques du lac Lacanau</strong>
+                                <strong>Caractéristiques du lac Carcans-Hourtin</strong>
                             </caption>
                             <tbody>
                                 <tr>
                                     <td>Superficie <i>km²</i> </td>
-                                    <td>20</td>
+                                    <td>62</td>
                                 </tr>
                                 <tr>
                                     <td>Profondeur <i>m</i> </td>
-                                    <td>8</td>
+                                    <td>11</td>
                                 </tr>
                                 <tr>
                                     <td>Catégorie de pêche</td>
@@ -65,7 +66,7 @@
 
         <!--Scripts Bootstrap -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
         <script src="lib/jquery/jquery.min.js"></script>
     </body>
 

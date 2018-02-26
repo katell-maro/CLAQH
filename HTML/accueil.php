@@ -19,7 +19,9 @@
 			<p> Contamination polymétallique des Lacs Aquitains et impacts Humains <p>
 			<p> Projet de recherche aquitain<p>
 		</div>
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
+        <script src="lib/jquery/jquery.min.js"></script>
 	</body>
 
 </html>

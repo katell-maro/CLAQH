@@ -14,7 +14,6 @@
 
     <body>
         <?php include_once 'navigation.html'; ?>
-        <object name="foo" type="text/html" data="navigation.html"></object>
         <div class="jumbotron">
             <div class="row">
                 <div class="col-lg-offset-1 col-lg-3">
@@ -66,7 +65,7 @@
 
         <!--Scripts Bootstrap -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
         <script src="lib/jquery/jquery.min.js"></script>
     </body>
 

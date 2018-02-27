@@ -7,6 +7,7 @@ body {
     font-family : "Roboto";
     color : #353d76;
     background-color: #e4e5f0;
+    margin-top: 50px;
 }
 h1 {
     margin-left: 40px;
@@ -16,6 +17,7 @@ h2 {
 }
 p{
     margin-left: 40px;
+    margin-right: 100px;
     text-align: justify
 }
 a {
@@ -41,9 +43,34 @@ a:active {
 
 object{
     width:100%;
+<<<<<<< HEAD
 }
 
 #titre_lac{
     border-top : 1px solid black;
     padding-left:20px;
 }
+=======
+<<<<<<< HEAD
+    height: 60px;
+}
+=======
+}
+
+hr {
+    border: none;
+    border-bottom: 2px solid #353d76; /* Ou border-top */
+    width : 800px;
+}
+
+#textVolet {
+    margin-right :0px;
+}
+
+.ligneVolet {
+    border: none;
+    border-bottom: 2px solid #353d76; /* Ou border-top */
+    width : 650px;
+}
+>>>>>>> master
+>>>>>>> master

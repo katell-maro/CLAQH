@@ -1,65 +1,63 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8"/>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title> CLAQH </title>
-		<link rel="icon" href="../IMG/logoTransparentSansTitre.png"  type="image/png">
-		<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="../CSS/style.css">
-    </head>
-    <body>
-        <nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-fixed-top " style="background-color:rgb(139, 186, 192);">
         
-            <div class="container-fluid">
+    <div class="container-fluid">
+    
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="accueil.php" class="navbar-brand-left visible-xs visible-sm"><img src="../IMG/logoTransparent.png" width="15%"></a>
+        </div>
             
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="accueil.html" class="navbar-brand-left visible-xs visible-sm"><img src="../IMG/logoTransparent.png" width="15%"></a>
-                </div>
-                  
-                <div class="collapse navbar-collapse" id="navbarcollapse">
-                    <div class="container">
-                        <div class="row ">
-                            <div class="col-md-5">
-                                <div class="row nav navbar-nav">
-                                    <ul class="nav navbar-nav">
-                                        <div class="nav navbar-nav col-md-6">
-                                            <li><a href="#">Projet</a></li>
-                                        </div>
-                                        <div class="nav navbar-nav col-md-6 ">
-                                            <li><a href="#">Environnement</a></li>
-                                        </div>
-                                    </ul>
+        <div class="collapse navbar-collapse" id="navbarcollapse">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-5">
+                        <div class="row nav navbar-nav">
+                            <ul class="nav navbar-nav">
+                                <div class="nav navbar-nav col-md-6">
+                                    <li role="presentation" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Projet</a>
+                                        <ul class="dropdown-menu"> 
+                                            <li><a href="historique.php">Historique</a></li>
+                                            <li><a href="#">Enjeux</a></li>
+                                            <li><a href="volet_1.php">Volet</a></li>
+                                        </ul>
+                                    </li>
                                 </div>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#" class="navbar-brand-center hidden-xs hidden-sm"><img src="../IMG/logoTransparent.png" width="100" height="60" class="d-inline-block align-top" ></a>
-                            </div>
-                            <div class="col-md-5 text-center">
-                                <div class="row nav navbar-nav">
-                                    <ul class="nav navbar-nav">
-                                        <div class="col-md-5 nav navbar-nav">
-                                            <li><a href="#">Partenaires</a></li>
-                                        </div>
-                                        <div class="col-md-7 nav navbar-nav" >
-                                            <li><a href="#">Nous contacter</a></li>
-                                        </div>
-                                    </ul>
+                                <div class="nav navbar-nav col-md-6 ">
+                                    <li role="presentation" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Environnement</a>
+                                        <ul class="dropdown-menu"> 
+                                            <li><a href="lacCH.php">Lac de Carcans-Hourtin</a></li>
+                                            <li><a href="lacL.php">Lac de Lacanau</a></li>
+                                            <li><a href="lacS.php">Lac de Sanguinet</a></li>
+                                            <li><a href="lac.php">Lac de Biscarosse-Parentis</a></li>
+                                        </ul>
+                                    </li>
                                 </div>
-                            </div>
+                            </ul>
                         </div>
                     </div>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-        </nav>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="../bootstrap/js/bootstrap.min.js"></script>
-    </body>
-</html>
+                                    
+                      <div class="col-md-2">
+                        <a href="accueil.php" class="navbar-brand-center hidden-xs hidden-sm"><img src="../IMG/logoTransparent.png" width="100" height="60" class="d-inline-block align-top" ></a>
+                    </div>
+                    <div class="col-md-5 text-center">
+                        <div class="row nav navbar-nav">
+                            <ul class="nav navbar-nav">
+                                <div class="col-md-5 nav navbar-nav">
+                                    <li><a href="#">Partenaires</a></li>
+                                </div>
+                                <div class="col-md-7 nav navbar-nav" >
+                                    <li><a href="#">Nous contacter</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>

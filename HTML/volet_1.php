@@ -12,7 +12,7 @@
 	</head>
 	
 	<body>
-			
+        <?php include_once 'navigation.html'; ?>	
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 col-sm-3 col-xs-2">
@@ -28,14 +28,14 @@
 			
 				<div class="col-md-9 col-sm-9 col-xs-10">
 					<div class="row">
-						<div class="col-md-4 col-sm-4 col-xs-6">
-							<h1> Volet 1 </h1>
+						<div class="col-md-3 col-sm-3 col-xs-6">
+							<h1> Volet 1</h1>
 						</div>
-						<div class="col-md-8 col-sm-8 col-xs-6">
-							<hr>
+						<div class="col-md-9 col-sm-9 col-xs-6">
+							<br/><hr class="ligneVolet">
 						</div>
 					</div>
-					<p>
+					<p id="textVolet">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus vulputate lacus ac volutpat. In tristique tellus rutrum, mattis enim in, auctor felis. Phasellus sagittis, magna quis auctor pretium, dolor felis pellentesque arcu, vel congue ante ex eget ipsum. Ut rutrum risus vehicula, blandit nunc ac, venenatis orci. Donec porttitor tincidunt risus sit amet cursus. Nunc porta est nec nibh molestie mollis. Praesent non pharetra lorem, vitae dignissim orci. Aenean quis ante a erat euismod mollis.
 
 						Curabitur ullamcorper lacinia magna, sit amet accumsan erat gravida facilisis. Maecenas cursus ullamcorper lorem, ac porta risus egestas sit amet. Maecenas ac tortor velit. Curabitur suscipit mollis ex sit amet viverra. Duis hendrerit lectus in dapibus iaculis. Integer sed odio eget turpis sollicitudin ultrices. Proin luctus tincidunt risus, a interdum lectus venenatis eu. Ut non viverra urna. Aenean in mattis risus, sit amet rutrum augue. Donec bibendum, ante eu lobortis sollicitudin, metus est ornare risus, id suscipit lectus velit vitae nunc. Pellentesque erat arcu, aliquet eu lobortis pharetra, ultrices sit amet purus.
@@ -57,6 +57,6 @@
 		</div>
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
 	</body>
 </html>

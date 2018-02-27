@@ -12,8 +12,8 @@
 
 
 	<body>
-        <?php // include_once 'navigation.html'; ?>
-		
+        <?php include_once 'navigation.html'; ?>
+
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">

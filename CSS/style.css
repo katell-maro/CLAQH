@@ -43,19 +43,14 @@ a:active {
 
 object{
     width:100%;
-<<<<<<< HEAD
 }
 
 #titre_lac{
     border-top : 1px solid black;
     padding-left:20px;
-}
-=======
-<<<<<<< HEAD
     height: 60px;
 }
-=======
-}
+
 
 hr {
     border: none;
@@ -72,5 +67,4 @@ hr {
     border-bottom: 2px solid #353d76; /* Ou border-top */
     width : 650px;
 }
->>>>>>> master
->>>>>>> master
+

@@ -17,10 +17,10 @@
 
 .vertical-menu a {
 	text-align : center;
-    color: black;
-    display: block;
-    padding: 12px;
-    text-decoration: none;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
 	transition: all 0.3s ease;
 }
 

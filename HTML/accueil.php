@@ -15,9 +15,9 @@
 	<body>
         <?php include_once 'navigation.html'; ?>
 		<div class="titre">
-			<h1> CLAQH </h1>
-			<p> Contamination polymétallique des Lacs Aquitains et impacts Humains <p>
-			<p> Projet de recherche aquitain<p>
+			<h1>CLAQH</h1>
+			<p>Contamination polymétallique des Lacs Aquitains et impacts Humains<p>
+			<p>Projet de recherche aquitain<p>
 		</div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="../bootstrap/js/bootstrap.min.js"></script>

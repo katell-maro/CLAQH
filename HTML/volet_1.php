@@ -10,9 +10,9 @@
 		<link rel="stylesheet" href="../CSS/style.css">
 		<link rel="stylesheet" href="../CSS/volet_style.css">
 	</head>
-	
+
 	<body>
-        <?php include_once 'navigation.html'; ?>	
+        <?php include_once 'navigation.html'; ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 col-sm-3 col-xs-2">
@@ -25,7 +25,7 @@
 						<a href="#">Volet 6</a>
 					</div>
 				</div>
-			
+
 				<div class="col-md-9 col-sm-9 col-xs-10">
 					<div class="row">
 						<div class="col-md-3 col-sm-3 col-xs-6">
@@ -55,8 +55,8 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
 	</body>
 </html>

@@ -1,0 +1,15 @@
+div div ul li
+{
+ margin:0 75px; 
+} 
+#navbar
+{
+    background-color:#034f84;
+}
+.dropdown-menu{
+    background-color:#92a8d1;
+}
+#lacs:focus,#projet:focus
+{
+    background-color:#92a8d1;
+} 

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-fixed-top " role="navigation" style="background-color:rgb(139, 186, 192);">       
+<nav class="navbar navbar-default navbar-fixed-top " role="navigation" id="navbar" >       
     <div class="container-fluid"> 
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
@@ -12,14 +12,14 @@
         <div class="collapse navbar-collapse" id="navbar-collapse-target">
             <div class="container">
                 <ul class="nav navbar-nav">
-                    <li role="presentation" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Projet</a>
+                    <li role="presentation" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" id="projet">Projet</a>
                         <ul class="dropdown-menu"> 
                             <li><a href="historique.php">Historique</a></li>
                             <li><a href="#">Enjeux</a></li>
                             <li><a href="volet_1.php">Volet</a></li>
                         </ul>
                     </li> 
-                    <li role="presentation" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Environnement</a>
+                    <li role="presentation" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" id="lacs">Environnement</a>
                         <ul class="dropdown-menu"> 
                             <li><a href="lacCH.php">Lac de Carcans-Hourtin</a></li>
                             <li><a href="lacL.php">Lac de Lacanau</a></li>
@@ -28,12 +28,12 @@
                         </ul>
                     </li>
                 </ul>
-                <ul class="nav navbar-nav">     
+                <ul class="nav navbar-nav" id="logonav">     
                     <a href="accueil.php" class="navbar-brand-center hidden-xs hidden-sm"><img src="../IMG/logoTransparent.png" style="max-width:100px; margin-top:-6px;" class="d-inline-block align-top" ></a>
                 </ul>
-                <ul class="nav navbar-nav">
-                    <li><a href="#">Partenaires</a></li>
-                    <li><a href="#">Nous contacter</a></li>
+                <ul class="nav navbar-nav"  >
+                    <li id="partenaire"><a href="#">Partenaires</a></li>
+                    <li id="contact"><a href="#">Nous contacter</a></li>
                 </ul>
             </div>
         </div><!-- /.navbar-collapse -->

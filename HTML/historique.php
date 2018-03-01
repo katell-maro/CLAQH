@@ -8,6 +8,7 @@
 		<link rel="icon" href="../IMG/logoTransparentSansTitre.png"  type="image/png">
 		<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="../CSS/style.css">
+		<link rel="stylesheet" href="../CSS/nav_style.css">	
 	</head>
 
 

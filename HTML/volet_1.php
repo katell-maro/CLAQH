@@ -9,6 +9,7 @@
 		<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="../CSS/style.css">
 		<link rel="stylesheet" href="../CSS/volet_style.css">
+		<link rel="stylesheet" href="../CSS/nav_style.css">	
 	</head>
 
 	<body>

@@ -8,6 +8,7 @@
         <link rel="icon" href="../IMG/logoTransparentSansTitre.png"  type="image/png">
         <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="../CSS/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="../CSS/nav_style.css">	
         <title>CLAQH - Lacs </title>
 
     </head>

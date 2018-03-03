@@ -24,7 +24,10 @@
                     <img src="../IMG/carte-CH.jpg" height=470 width=470/>
                 </div>
                 <div class="col-lg-offset-1 col-lg-6 col-lg-offset-1">
-                    <h2>Lac de Carcans-Hourtin ———————————— </h2>
+                    <div class="row">
+                    <div class="col-lg-7"><h2>Lac de Carcans-Hourtin</h2></div>
+                    <div class="col-lg-5"><br/><hr class="ligneLac"></div>
+                    </div>
 
                     <br/>
                     <br/>

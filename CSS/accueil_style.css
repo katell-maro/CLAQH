@@ -1,8 +1,9 @@
 body {
 	background-image : url("../IMG/accueil.jpeg");
-	background-position : center;
+	background-position : center center;
 	background-attachment: fixed;
 	background-repeat : no-repeat;
+	background-size: cover;
 	width: 100vw;
 	height: 100vh;
 }
@@ -28,4 +29,3 @@ h1 {
 p {
 	font-size : 40px;
 }
-

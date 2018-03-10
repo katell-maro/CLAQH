@@ -3,22 +3,31 @@
     src : url("../POLICE/Roboto.ttf/Roboto-light.ttf") format("truetype");
 
 }
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family : "Roboto";
     color : #353d76;
     background-color: #e4e5f0;
-    margin-top: 50px;
+    padding-top: 50px;
+    margin-right: 50px;
+    overflow-x: hidden;
 }
-h1 {
-    margin-left: 40px;
-}
-h2 {
+h1, h2 {
     margin-left: 40px;
 }
 p{
+    font-size: 17px;
     margin-left: 40px;
-    margin-right: 100px;
     text-align: justify
+}
+li {
+    font-size: 17px;
+    text-align: justify;
+    margin-left : 45px;
 }
 a {
     text-decoration : underline;
@@ -79,4 +88,10 @@ hr {
 
 .logo_part {
   width : 100px;
+}
+
+.container {
+  margin-right: 0;
+  margin-left: 0;
+  width: auto;
 }

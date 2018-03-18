@@ -1,25 +1,46 @@
-.navbar div div ul li
-{
+.navbar div div ul li {
   margin:0 72px;
   font-size: 20px;
 }
 
-#navbar
-{
+#navbar {
   background-color:#034f84;
+  box-shadow : 0px 1px 20px 0.5px #8c8c8c;
+  border : 0;
 }
 
 .dropdown-menu{
+  background-color:#034f84;
+}
+
+/*
+#lacs:focus,#projet:focus {
   background-color:#92a8d1;
 }
 
-#lacs:focus,#projet:focus
-{
-  background-color:#92a8d1;
-}
 
 .ligneLac {
   border : none;
   border-bottom: 2px solid #353d76;
   width : 200px
 }
+*/
+.navbar-default .navbar-nav li a, .navbar-default .navbar-nav li a:visited {
+	color : white;
+	text-decoration : none;
+}
+
+.navbar-default .navbar-nav li a:hover{
+	color : #8c8c8c;
+	text-decoration : none;
+}
+
+.navbar-default .navbar-nav .open a:focus, .navbar-default .navbar-nav .open a:hover {
+	color : #8c8c8c;
+	background-color : #034f84;
+	width : 100%;
+}
+
+
+
+

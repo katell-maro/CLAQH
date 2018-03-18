@@ -24,7 +24,7 @@
                     <img src="../IMG/carte-L.png" height=370 width=470/>
                 </div>
                 <div class="col-lg-offset-1 col-lg-6 col-lg-offset-1">
-                    <h2>Lac de Lacanau ———————————————— </h2>
+                    <h2>Lac de Lacanau</h2>
 
                     <br/>
                     <br/>

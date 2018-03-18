@@ -13,23 +13,10 @@
     <body>
         <?php include_once 'navigation.html'; ?> 
 
-        <div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<div class="row">
-						<div class="col-sm-4">
-							<h1> Nous contacter </h1>
-						</div>
-						<div class="col-sm-8">
-							<br/><hr>
-						</div>
-					</div>
-					<p>
-					    test				
-					</p>
-				</div>
-			</div>
-        </div>
+		<h1> Nous contacter </h1>
+		<p>
+			test				
+		</p>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="../bootstrap/js/bootstrap.min.js"></script>

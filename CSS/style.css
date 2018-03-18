@@ -12,39 +12,47 @@ body {
     font-family : "Roboto";
     color : #353d76;
     background-color: #e4e5f0;
-    padding-top: 50px;
+    padding-top: 60px;
     margin-right: 50px;
     overflow-x: hidden;
 }
+
 h1, h2 {
     margin-left: 40px;
 }
+
 p{
     font-size: 17px;
     margin-left: 40px;
     text-align: justify
 }
+
 li {
     font-size: 17px;
     text-align: justify;
     margin-left : 45px;
 }
+
 a {
     text-decoration : underline;
     color : #353d76
 }
+
 a:visited {
     text-decoration: underline;
     color : #181d40;
 }
+
 a:hover {
     text-decoration: underline;
     color :rgb(39, 143, 175);
 }
+
 a:active {
     text-decoration: underline;
     color: rgb(39, 143, 175);
 }
+
 .def {
     margin-left: 40px;
     color : #181d40;

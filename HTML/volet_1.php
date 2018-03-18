@@ -16,7 +16,7 @@
 	<body>
     <?php include_once 'navigation.html'; ?>
 
-		<div class="container">
+		<div class="voletContainer container">
 			<div class="row">
 				<div class="col-md-2 col-sm-2 col-xs-2">
 					<div class="vertical-menu">

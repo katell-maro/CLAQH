@@ -16,7 +16,7 @@
 	<body>
     <?php include_once 'navigation.html'; ?>
 
-		<div class="container">
+		<div class="voletContainer container">
 			<div class="row">
 				<div class="col-md-2 col-sm-2 col-xs-2">
 					<div class="vertical-menu">
@@ -30,16 +30,16 @@
 				</div>
 
 				<div class="col-md-10 col-sm-10 col-xs-10">
-					<h1> </h1>
+					<h1> Tracer l’origine du mercure dans les poissons des lacs aquitains </h1>
 					<p class="texteVolet">
 
           </p>
 
 					<h2>Équipe de recherche en charge du volet 3 :</h2>
 					<p class="equipeVolet">
-
+						Université de Pau et des Pays de l'Adour - IPREM - UMR CNRS 5254 Équipe LCABIE
 						<br/>
-
+						Mathilde Monperrus et Zoyne Pedrero Zayas
 					</p>
 
 					<a href="javascript: enSavoirPlus('details3');">En savoir plus<b class="caret"></b></a>

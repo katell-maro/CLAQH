@@ -1,10 +1,11 @@
-.container {
+.voletContainer.container {
 	margin-left : 0;
+	margin-top : 0;
 	padding-left : 0;
 }
 
 .vertical-menu {
-  width: 200px;
+	width: 200px;
 	height: 100%;
 	position :fixed;
 	background-color: #ffffff;
@@ -17,10 +18,10 @@
 
 .vertical-menu a {
 	text-align : center;
-  color: black;
-  display: block;
-  padding: 12px;
-  text-decoration: none;
+	color: black;
+	display: block;
+	padding: 12px;
+	text-decoration: none;
 	transition: all 0.3s ease;
 }
 
@@ -29,7 +30,7 @@
 }
 
 .vertical-menu a.active {
-    background-color: DarkSlateBlue;
+    background-color: #034f84;
     color: white;
 }
 

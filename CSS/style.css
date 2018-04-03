@@ -103,6 +103,11 @@ hr {
 }
 
 
+.carte{
+    display: none;
+  }
+
+
 .logo_part {
   width : 100px;
 }

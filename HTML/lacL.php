@@ -3,8 +3,6 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!-- Attention au chemin ! -->
         <link rel="icon" href="../IMG/logoTransparentSansTitre.png"  type="image/png">
         <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="../CSS/style.css" rel="stylesheet">
@@ -16,15 +14,18 @@
     <body>
         <?php include_once 'navigation.html'; ?>
 
-        <div class="jumbotron">
+        <!-- <div class="jumbotron"> -->
             <div class="row">
                 <div class="col-lg-offset-1 col-lg-3">
-                    <img class='img-responsive' src="../IMG/lac-L.jpg"/>
-                    <br/><br/>
-                    <img src="../IMG/carte-L.png" height=370 width=470/>
+                    <br/><br/><br/>
+                    <img height=370 width=470 src="../IMG/LACANAU_4.jpg"/>
+                    <img class="carte" src="../IMG/carte-L.png" height=370 width=470/>
                 </div>
                 <div class="col-lg-offset-1 col-lg-6 col-lg-offset-1">
-                    <h2>Lac de Lacanau</h2>
+                    <h2>
+                        Lac de Lacanau
+                        <button class="btn btn-default" onclick="afficher()">  Afficher la carte </button>
+                    </h2>
 
                     <br/>
                     <br/>
@@ -61,14 +62,17 @@
                     </p>
                 </div>
             </div>
-        </div>
+        <!-- </div> -->
 
-        <?php include_once 'footer.php'; ?>
+        <div id="position">
+            <?php include "footer.php"; ?>
+        </div>
 
         <!--Scripts Bootstrap -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="../bootstrap/js/bootstrap.min.js"></script>
         <script src="lib/jquery/jquery.min.js"></script>
+        <script src="script.js"></script>
     </body>
 
 </html>

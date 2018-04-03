@@ -14,19 +14,25 @@
     </head>
 
     <body>
-        <?php include_once 'navigation.html'; ?>
+        <?php 
+            include_once 'navigation.html'; 
+            //include_once 'script.js';
+        ?>
+       
 
         <!-- <div class="jumbotron"> -->
             <div class="row">
-                <div class="col-lg-offset-1 col-lg-3">
-                    <img class='img-responsive' src="../IMG/lac-CH.jpg"/>
+                <div class="col-lg-3">
                     <br/><br/>
-                    <img src="../IMG/carte-CH.jpg" height=470 width=470/>
+                    <p>
+                        <img height=470 width=600 src="../IMG/HC.jpg"/> <!--../IMG/lac-CH.jpg--> <!--class='img-responsive'-->
+                        <img class="carte" src="../IMG/carte-CH.jpg" alt="" height=470 width=470/>
+                    </p>
                 </div>
-                <div class="col-lg-offset-1 col-lg-6"> <!--"col-lg-offset-1 col-lg-6 col-lg-offset-1" -->
-                    <h2>Lac de Carcans-Hourtin</h2>
-
+                <div class="col-lg-offset-2 col-lg-6"> <!--"col-lg-offset-1 col-lg-6 col-lg-offset-1" -->
                     <br/>
+                    <h2>Lac de Carcans-Hourtin
+                    <button class="btn btn-default" onclick="afficher()">  Afficher la carte </button> </h2> 
                     <br/>
                     <p style="text-align:justify;">
                         Il s’agit du plus grand lac d’eau douce de France. Parmi les quatre lacs étudiés, il est celui situé le plus au nord.  Ce lac s’étend sur 18 km de long et 5 km de large parallèlement à la côte atlantique, de la commune d’Hourtin (au Nord) à celle de Carcans (au Sud).
@@ -63,12 +69,15 @@
             </div>
         </div>
 
-        <?php include_once 'footer.php'; ?>
+        <div id="position">
+            <?php include "footer.php"; ?>
+        </div>
 
         <!--Scripts Bootstrap -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="../bootstrap/js/bootstrap.min.js"></script>
         <script src="lib/jquery/jquery.min.js"></script>
+        <script src="script.js"></script>
     </body>
 
 </html>

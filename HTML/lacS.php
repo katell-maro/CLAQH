@@ -15,15 +15,19 @@
 
     <body>
         <?php include_once 'navigation.html'; ?>
-        <div class="jumbotron">
+        <!-- <div class="jumbotron"> -->
             <div class="row">
                 <div class="col-lg-offset-1 col-lg-3">
-                    <img class='img-responsive' src="../IMG/lac-S.jpg"/>
-                    <br/><br/>
-                    <img src="../IMG/carte-S.png" height=370 width=470/>
+                    <br/><br/><br/>
+                    <img height=370 width=470 src="../IMG/SANGUINET.jpg"/>
+                    <img class="carte" src="../IMG/carte-S.png" height=370 width=470/>
                 </div>
                 <div class="col-lg-offset-1 col-lg-6 col-lg-offset-1">
-                    <h2>Lac de Cazaux-Sanguinet</h2>
+                    <br/>
+                    <h2>
+                        Lac de Cazaux-Sanguinet
+                        <button class="btn btn-default" onclick="afficher()">  Afficher la carte </button>
+                    </h2>
 
                     <br/>
                     <br/>
@@ -60,14 +64,17 @@
                     </p>
                 </div>
             </div>
-        </div>
+        <!-- </div> -->
 
-        <?php include_once 'footer.php'; ?>
+        <div id="position">
+            <?php include "footer.php"; ?>
+        </div>
 
         <!--Scripts Bootstrap -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="../bootstrap/js/bootstrap.min.js"></script>
         <script src="lib/jquery/jquery.min.js"></script>
+        <script src="script.js"></script>
     </body>
 
 </html>

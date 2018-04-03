@@ -28,10 +28,11 @@
 		</p>
 
 
+		<div id="position">
+			<?php include "footer.php"; ?>
+		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="../bootstrap/js/bootstrap.min.js"></script>
-		<?php include_once 'footer.php'; ?>
-
 	</body>
 
 </html>

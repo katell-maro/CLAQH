@@ -41,6 +41,12 @@
 	width : 100%;
 }
 
+.centerLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 
 

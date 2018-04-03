@@ -25,7 +25,10 @@
 			En <B>2014</B>, le projet CLAQH est mis en place pour une durée de 4 ans.
 		</p>
 
-		<?php include "footer.php"; ?>
+		<div id="position">
+			<?php include "footer.php"; ?>
+		</div>
+		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="../bootstrap/js/bootstrap.min.js"></script>
 	</body>

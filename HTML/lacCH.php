@@ -16,14 +16,14 @@
     <body>
         <?php include_once 'navigation.html'; ?>
 
-        <div class="jumbotron">
+        <!-- <div class="jumbotron"> -->
             <div class="row">
                 <div class="col-lg-offset-1 col-lg-3">
                     <img class='img-responsive' src="../IMG/lac-CH.jpg"/>
                     <br/><br/>
                     <img src="../IMG/carte-CH.jpg" height=470 width=470/>
                 </div>
-                <div class="col-lg-offset-1 col-lg-6 col-lg-offset-1">
+                <div class="col-lg-offset-1 col-lg-6"> <!--"col-lg-offset-1 col-lg-6 col-lg-offset-1" -->
                     <h2>Lac de Carcans-Hourtin</h2>
 
                     <br/>

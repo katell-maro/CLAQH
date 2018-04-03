@@ -13,7 +13,6 @@ body {
     color : #353d76;
     background-color: #e4e5f0;
     padding-top: 60px;
-    margin-right: 50px;
     overflow-x: hidden;
 }
 
@@ -24,6 +23,7 @@ h1, h2 {
 p{
     font-size: 17px;
     margin-left: 40px;
+    margin-right: 40px;
     text-align: justify
 }
 
@@ -89,10 +89,19 @@ hr {
   background-color: white;
   box-shadow: 0px -1px 20px 0.5px #8c8c8c;
   text-align: center;
-  position: fixed;
+  clear: both;
+  /*position:absolute;*/
+  /*position: fixed;*/
   bottom : 0;
   width : 100%;
 }
+
+#position {
+    width : 100%;
+    position:absolute;
+    bottom : 0;
+}
+
 
 .logo_part {
   width : 100px;

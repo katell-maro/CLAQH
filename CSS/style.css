@@ -96,12 +96,11 @@ hr {
   width : 100%;
 }
 
-#position {
+.position {
     width : 100%;
     position:absolute;
     bottom : 0;
 }
-
 
 .carte{
     display: none;

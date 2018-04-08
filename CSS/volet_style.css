@@ -1,11 +1,23 @@
 .voletContainer.container {
 	margin-left : 0;
 	margin-top : 0;
-	padding-left : 0;
+	padding : 0;
+	height: 100%;
 }
 
+.col-menu {
+	padding: 0;
+	margin-left : 0;
+	margin-top : 0;
+}
+
+.footer-container {
+	padding: 0;
+}
+
+
 .vertical-menu {
-	width: 200px;
+	width: inherit;
 	height: 100%;
 	position :fixed;
 	background-color: #ffffff;

@@ -22,7 +22,7 @@
 			Le projet CLAQH comporte de nombreux enjeux. Il vise à répondre à différentes questions afin d’évaluer un risque potentiel de contamination pour l’environnement et les populations locales. Ces questions peuvent être énoncées comme suit :  Pourquoi certaines espèces de poissons et certains lacs semblent plus contaminés que d’autres ? Comment se répartit ce mercure au sein de chaque écosystème ? Quelle est l’origine de la contamination de ces poissons par le mercure ? Quels impacts cette pollution peut avoir sur la population humaine ? Quelle est la perception du risque par les consommateurs ? Le projet comportant plusieurs volets, chacun d’entre eux possède des objectifs précis.				
 		</p>
 		
-		<div id="position">
+		<div class="position">
 			<?php include "footer.php"; ?>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

@@ -64,7 +64,7 @@
             </div>
         <!-- </div> -->
 
-        <div id="position">
+        <div class="position">
             <?php include "footer.php"; ?>
         </div>
 

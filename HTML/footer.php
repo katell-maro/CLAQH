@@ -4,7 +4,7 @@
   <img class="logo_part" src="../IMG/epoc.png" alt="EPOC" width=100px>
   <img class="logo_part" src="../IMG/ensc.PNG" alt="l'Ecole Nationale Supérieure de Cognitique" width=100px>
   <img class="logo_part" src="../IMG/labex_cote.png" alt="le labex cote" width=100px>
-  <img class="logo_part" src="../IMG/universite_bordeaux.png" alt="L'Université de Bordeaux" width=100px>
+  <img class="logo_part" src="../IMG/universite_bordeaux.jpg" alt="L'Université de Bordeaux" width=100px>
   <img class="logo_part" src="../IMG/universite_pau.png" alt="L'Université de Pau et des pays de l’Adour" width=100px>
 </footer>
 

@@ -31,6 +31,12 @@
 
 				<div class="col-md-10 col-sm-10 col-xs-10">
 					<h1>Étudier la répartition des métaux traces dans les poissons des 4 lacs</h1>
+
+					<h2> Objectif du volet 1 </h2>
+					<p class="texteVolet">
+						Cette étude permet de faire un état des lieux des concentrations en divers métaux traces dans les poissons afin de mieux connaître et suivre la qualité des milieux dans les 4 lacs.
+					</p>
+
 					<p class="texteVolet">
 						Au cours du projet, deux types de suivis sont effectués :
 						<ul>
@@ -38,7 +44,7 @@
 								La première année sur une période courte de 2 mois, les 4 lacs sont échantillonnés simultanément et toutes les espèces de poissons ainsi que toutes les sources potentielles de nourriture seront prélevées, afin de faire une étude de la présence des métaux traces en comparant les 4 lacs.
 							</li>
 							<li>
-								La deuxième année, un focus est effectué sur une seule espèce de poisson retenue à partir des résultats de la première année. Cette espèce ainsi que sa nourriture seront prélevées sur 1 seul lac sur les 4 saisons, afin de mettre en évidence un éventuel impact de la saison sur la présence de métaux traces dans la chair de poissons.
+								La deuxième année, un focus est effectué sur une seule espèce de poisson retenue à partir des résultats de la première année. Cette espèce ainsi que sa nourriture seront prélevées sur un seul lac sur les quatre saisons, afin de mettre en évidence un éventuel impact de la saison sur la présence de métaux traces dans la chair de poissons.
 							</li>
 						</ul>
 					</p>
@@ -47,37 +53,37 @@
 					<p class="equipeVolet">
 						Université de Bordeaux/UMR EPOC 5805 équipe d’Ecotoxicologie Aquatique (EA)
 						<br/>
-						Alexia Legeay ; Régine Maury-Brachet ; Agnès Feurtet-Mazel ; Magalie Baudrimont, Sophie Gentes.
+						Alexia Legeay, Régine Maury-Brachet, Agnès Feurtet-Mazel, Magalie Baudrimont et Sophie Gentes.
 					</p>
 
 					<a href="javascript: enSavoirPlus('details1');">En savoir plus<b class="caret"></b></a>
 					<div class="details" id="details1">
 						<p>
-							Cette étude permet de faire un état des lieux des concentrations en divers métaux traces dans les poissons afin de mieux connaître et suivre la qualité des milieux dans les 4 lacs.
-						</p>
-						<p>
 							Un important effort de pêche est mis en œuvre sur les 4 lacs. Ceci afin d’une part d’obtenir suffisamment d’espèces bien représentées pour pouvoir comparer les 4 lacs. Il est nécessaire de pêcher des espèces de différents niveaux trophiques (poissons carnassiers, omnivores, benthivores, etc.). Chaque niveau trophique présente un grand intérêt pour comprendre d’une part les processus de diffusion des métaux traces dans un lac et d’autre part pour mieux tracer leur origine. Plusieurs types de pêche sont pratiqués (pêche au trémail, à la ligne, nasse …).
+
 						</p>
 						<p>
 							Nous profitons de cet échantillonnage exhaustif pour analyser les concentrations d’une douzaine de métaux traces, car peu de données de ce type sont disponibles sur l’ichtyofaune de ces sites. Afin d’optimiser la collecte des échantillons de poissons et pouvoir envisager des analyses complémentaires si nécessaire, une dissection complète de chaque individu est effectuée pour afin de pouvoir réaliser les relevés et analyses suivants :
+
+							<ul>
+								<li>
+									Relevé de paramètres biométriques : longueur standard et totale, poids total du poisson et de chaque organe, indice de condition de Fulton, détermination du sexe.
+								</li>
+								<li>
+									Dissection et conservation des principaux organes : muscle, foie, rein, estomac, cerveau, intestin, etc.
+								</li>
+								<li>
+									Détermination de l’âge : à partir des écailles de poisson avec l’appui du laboratoire UMR Ecobiop (INRA/UPPA - Saint Pée sur Nivelle, François Guéraud, Tech. et Valérie Bolliet, Pr).
+								</li>
+								<li>
+									Analyse du mercure total et du MeHg ainsi que 12 métaux traces (Argent ‘Ag’, aluminium ‘Al’, arsenic ‘As’, cadmium ‘Cd’, chrome ‘Cr’, cobalt ‘Co’, cuivre ‘Cu’, manganèse ‘Mn’, nickel ‘Ni’, plomb ‘Pb’, vanadium ‘Va’ et zinc ‘Zn’).
+								</li>
+								<li>
+									Analyse du niveau trophique par l’étude des isotopes stables du carbone (δ13C) et de l’azote (δ15N) dans le muscle et étude du contenu stomacal. En parallèle, un effort d’échantillonnage sera effectué sur les sources alimentaires des poissons (crustacés, mollusques, plantes, biofilm, etc.).
+								</li>
+							</ul>
 						</p>
-						<ul>
-							<li>
-								Relevé de paramètres biométriques : longueur standard et totale, poids total du poisson et de chaque organe, indice de condition de Fulton, détermination du sexe ;
-							</li>
-							<li>
-								Dissection et conservation des principaux organes : muscle, foie, rein, estomac, cerveau, intestin, etc.
-							</li>
-							<li>
-								Détermination de l’âge : à partir des écailles de poisson avec l’appui du laboratoire UMR Ecobiop (INRA/UPPA - Saint Pée sur Nivelle, François Guéraud, Tech. et Valérie Bolliet, Pr).
-							</li>
-							<li>
-								Analyse du mercure total et du MeHg ainsi que 12 métaux traces (Argent ‘Ag’, aluminium ‘Al’, arsenic ‘As’, cadmium ‘Cd’, chrome ‘Cr’, cobalt ‘Co’, cuivre ‘Cu’, manganèse ‘Mn’, nickel ‘Ni’, plomb ‘Pb’, vanadium ‘Va’ et zinc ‘Zn’) ;
-							</li>
-							<li>
-								Analyse du niveau trophique par l’étude des isotopes stables du carbone (δ13C) et de l’azote (δ15N) dans le muscle et étude du contenu stomacal. En parallèle, un effort d’échantillonnage sera effectué sur les sources alimentaires des poissons (crustacés, mollusques, plantes, biofilm, etc.).
-							</li>
-						</ul>
+						
 					</div>
 
 				</div>

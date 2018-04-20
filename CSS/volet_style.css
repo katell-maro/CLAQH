@@ -20,7 +20,7 @@
 	width: inherit;
 	height: 100%;
 	position :fixed;
-	background-color: #ffffff;
+	background-color: #f2f2f2; /*#ffffff;*/
 	box-shadow : 3px 0px 5px gray;
 	font-size : 20px;
 	display : flex;
@@ -48,4 +48,77 @@
 
 .details {
 	display : none;
+}
+
+.img_volet {
+	width : 200px;
+
+}
+
+.btn_details {
+	text-decoration: none;
+	color : black;
+	font-size: 17px;
+}
+
+.btn_details:hover {
+	text-decoration: none;
+    color : #353d76;
+}
+
+.btn_details:visited, .btn_details:active, .btn_details:focus  {
+	text-decoration: none;
+	color : black;
+}
+
+.details {
+	margin-top: 10px;
+}
+
+.equipeVolet {
+	margin-bottom: 20px;
+}
+
+.galerie {
+	height: 100px;
+	margin-bottom: 30px;
+}
+
+.galerie li{
+     position:relative;
+     float:left;
+     height:100px;
+     width : 150px;
+     padding:10px;
+     list-style:none;
+}
+
+/*permet de créer deux lignes
+.galerie li:nth-child(4n){
+	clear:left;
+} */
+          
+.galerie li img{
+	display:block;
+	overflow:hidden;
+	margin-top:5px;
+	margin-left:0px;
+	transition-property:width,height,margin,z-index,border;
+
+	position:absolute;
+	height:100px;
+	z-index:20;
+	/*transition-property:width,height,z-index;*/
+	transition-duration:0.4s;
+}
+          
+.galerie li img:hover{
+	position:absolute;
+	margin-top:-28px;
+	margin-left:-28px;
+	margin-bottom: -28px;
+	margin-right: -28px;
+
+	height:200px;
+	z-index:100;
 }

@@ -29,10 +29,10 @@
 					</div>
 				</div>
 
-				<div class="col-md-10 col-sm-10 col-xs-10">
+				<div class="contenu col-md-10 col-sm-10 col-xs-10">
 					<h1>Étudier la répartition des métaux traces dans les poissons des 4 lacs</h1>
 
-					<h2> Objectif du volet 1 </h2>
+					<h2> Objectif</h2>
 					<p class="texteVolet">
 						Cette étude permet de faire un état des lieux des concentrations en divers métaux traces dans les poissons afin de mieux connaître et suivre la qualité des milieux dans les 4 lacs.
 					</p>
@@ -49,14 +49,38 @@
 						</ul>
 					</p>
 
-					<h2>Équipe de recherche en charge du volet 1 :</h2>
+					<h3>Équipe de recherche</h3>
 					<p class="equipeVolet">
 						Université de Bordeaux/UMR EPOC 5805 équipe d’Ecotoxicologie Aquatique (EA)
 						<br/>
 						Alexia Legeay, Régine Maury-Brachet, Agnès Feurtet-Mazel, Magalie Baudrimont et Sophie Gentes.
 					</p>
 
-					<a href="javascript: enSavoirPlus('details1');">En savoir plus<b class="caret"></b></a>
+
+					<ul class="galerie">
+				    	<li>
+					        <img  src="../IMG/volet1-a.jpg"/>
+					    </li>
+					    <li>
+					        <img  src="../IMG/volet1-b.jpg"/>
+					    </li>
+					    <li>
+					        <img  src="../IMG/volet1-c.jpg"/>
+					    </li>
+					    <li>
+					        <img  src="../IMG/volet1-d.jpg"/>
+					    </li>
+					    <li>
+					        <img  src="../IMG/volet1-e.jpg"/>
+					    </li>
+					    <li>
+					        <img  src="../IMG/volet1-f.jpg"/>
+					    </li>
+					</ul>
+
+					
+
+					<a class="btn_details" href="javascript: enSavoirPlus('details1');">En savoir plus<b class="caret"></b></a>
 					<div class="details" id="details1">
 						<p>
 							Un important effort de pêche est mis en œuvre sur les 4 lacs. Ceci afin d’une part d’obtenir suffisamment d’espèces bien représentées pour pouvoir comparer les 4 lacs. Il est nécessaire de pêcher des espèces de différents niveaux trophiques (poissons carnassiers, omnivores, benthivores, etc.). Chaque niveau trophique présente un grand intérêt pour comprendre d’une part les processus de diffusion des métaux traces dans un lac et d’autre part pour mieux tracer leur origine. Plusieurs types de pêche sont pratiqués (pêche au trémail, à la ligne, nasse …).

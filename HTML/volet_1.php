@@ -57,26 +57,37 @@
 					</p>
 
 
-					<ul class="galerie">
-				    	<li>
-					        <img  src="../IMG/volet1-a.jpg"/>
-					    </li>
-					    <li>
-					        <img  src="../IMG/volet1-b.jpg"/>
-					    </li>
-					    <li>
-					        <img  src="../IMG/volet1-c.jpg"/>
-					    </li>
-					    <li>
-					        <img  src="../IMG/volet1-d.jpg"/>
-					    </li>
-					    <li>
-					        <img  src="../IMG/volet1-e.jpg"/>
-					    </li>
-					    <li>
-					        <img  src="../IMG/volet1-f.jpg"/>
-					    </li>
-					</ul>
+<!--
+	<ul class="galerie">
+					    	<li>
+						        <img  src="../IMG/volet1-a.jpg"/>
+						    </li>
+						    <li>
+						        <img  src="../IMG/volet1-b.jpg"/>
+						    </li>
+						    <li>
+						        <img  src="../IMG/volet1-c.jpg"/>
+						    </li>
+						    <li>
+						        <img  src="../IMG/volet1-d.jpg"/>
+						    </li>
+						    <li>
+						        <img  src="../IMG/volet1-e.jpg"/>
+						    </li>
+						    <li>
+						        <img  src="../IMG/volet1-f.jpg"/>
+						    </li>
+						</ul>
+					-->
+
+					<div class="galerie">
+				        <img  src="../IMG/volet1-a.jpg"/>
+				        <img  src="../IMG/volet1-b.jpg"/>
+				        <img  src="../IMG/volet1-c.jpg"/>
+				        <img  src="../IMG/volet1-d.jpg"/>
+				        <img  src="../IMG/volet1-e.jpg"/>
+				        <img  src="../IMG/volet1-f.jpg"/>
+					</div>
 
 					
 

@@ -1,122 +1,21 @@
+/*GENERAL*/
 @font-face{
-    font-family: "Roboto";
-    src : url("../POLICE/Roboto.ttf/Roboto-light.ttf") format("truetype");
-
+  font-family: "Roboto";
+  src : url("../POLICE/Roboto.ttf/Roboto-light.ttf") format("truetype");
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family : "Roboto";
-    color : black;
-    background-color: #ffffff; /*#e4e5f0;*/
-    padding-top: 60px;
-    overflow-x: hidden;
-}
-
-
-h1, h2, h3 {
-    color : #353d76;
-}
-
-h1 {
-  margin-top: 40px;
-}
-
-h2, h3 {
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
-p{
-    font-size: 17px;
-    text-align: justify
-}
-
-li {
-    font-size: 17px;
-    text-align: justify;
-    margin-left : 5px;
-}
-
-a {
-    text-decoration : underline;
-    color : #353d76
-}
-
-a:visited {
-    text-decoration: underline;
-    color : #181d40;
-}
-
-a:hover {
-    text-decoration: underline;
-    color :rgb(39, 143, 175);
-}
-
-a:active {
-    text-decoration: underline;
-    color: rgb(39, 143, 175);
-}
-
-.def {
-    margin-left: 40px;
-    color : #181d40;
-}
-
-object{
-    width:100%;
-}
-
-#titre_lac{
-    border-top : 1px solid black;
-    padding-left:20px;
-    height: 60px;
-}
-
-
-hr {
-    border: none;
-    border-bottom: 2px solid #353d76; /* Ou border-top */
-    width : 800px;
-}
-
-#textVolet {
-    margin-right :0px;
-}
-
-.ligneVolet {
-    border: none;
-    border-bottom: 2px solid #353d76; /* Ou border-top */
-    width : 650px;
-}
-
-.footer {
-  background-color: white;
-  box-shadow: 0px -1px 20px 0.5px #8c8c8c;
-  text-align: center;
-  clear: both;
-  /*position:absolute;*/
-  /*position: fixed;*/
-  bottom : 0;
-  width : 100%;
-}
-
-.position {
-    width : 100%;
-    position:absolute;
-    bottom : 0;
-}
-
-.carte{
-    display: none;
-  }
-
-
-.logo_part {
-  width : 100px;
+  display: flex;
+  flex-direction: column;
+  font-family : "Roboto";
+  color : black;
+  background-color: #ffffff;
+  padding-top: 70px;
+  overflow-x: hidden;
 }
 
 .container {
@@ -128,4 +27,108 @@ hr {
 .contenu {
   padding-right: 7%;
   padding-left: 7%;
+  min-height: calc(100vh - 140px);
+  padding-top: 40px;
+}
+
+
+/*TITRES*/
+h1, h2, h3 {
+    color : #353d76;
+}
+
+h1 {
+  margin-top: 10px;
+}
+
+h2, h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+
+/*PARAGRAPHES ET LISTES*/
+p{
+    font-size: 17px;
+    text-align: justify
+}
+
+li {
+    font-size: 17px;
+    text-align: justify;
+    margin-left : 5px;
+}
+
+
+/*LIENS*/
+a {
+    color : #0275d8;
+}
+
+a:visited {
+    color : #330066;
+}
+
+a:hover {
+    text-decoration: underline;
+    color : #025aa5;
+}
+
+a:active {
+    color : #025aa5;
+}
+
+
+/*PARTIE LAC*/
+.carte{
+  display: none;
+}
+
+#titre_lac{
+  border-top : 1px solid black;
+  padding-left:20px;
+  height: 60px;
+}
+
+.imgLac {
+  max-width : 450px;
+  max-height: 450px;
+}
+
+
+/*FOOTER*/
+.footer {
+  text-align: center;
+  clear: both;
+  bottom : 0;
+  width : 100%;
+  height: 70px;
+}
+
+.position {
+    width : 100%;
+    bottom : 0;
+}
+
+.logo_part {
+  height : 60px;
+  width : auto;
+}
+
+.ligneFooter {
+  display: block;
+  height: 1px;
+  border: 0;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #353d76, rgba(0, 0, 0, 0));
+  opacity : 0.75;
+  margin: 1em 0;
+  padding: 0; 
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+@media screen and (max-width : 740px) {
+  .footer {
+    display : none;
+  }
 }

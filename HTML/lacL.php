@@ -7,39 +7,36 @@
         <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="../CSS/style.css" rel="stylesheet">
         <link rel="stylesheet" href="../CSS/nav_style.css">	
-        <title>CLAQH - Lacs </title>
-
+        <title>CLAQH - Lac Lacanau </title>
     </head>
 
     <body>
         <?php include_once 'navigation.html'; ?>
 
-        <!-- <div class="jumbotron"> -->
+        <div class="contenu">
             <div class="row">
-                <div class="col-lg-offset-1 col-lg-3">
-                    <br/><br/><br/>
-                    <img height=370 width=470 src="../IMG/LACANAU_4.jpg"/>
-                    <img class="carte" src="../IMG/carte-L.png" height=370 width=470/>
+                <div class="col-lg-6">
+                    <img class="imgLac" src="../IMG/LACANAU_4.jpg"/>
+                    <img class="carte imgLac" src="../IMG/carte-L.png"/>
                 </div>
-                <div class="col-lg-offset-1 col-lg-6 col-lg-offset-1">
-                    <h2>
-                        Lac de Lacanau
-                        <button class="btn btn-default" onclick="afficher()">  Afficher la carte </button>
-                    </h2>
 
-                    <br/>
-                    <br/>
-                    <p style="text-align:justify;">
+                <div class="col-lg-6">
+                    <h1> Lac de Lacanau </h1>
+
+                    <p>
                         Le lac de Lacanau, aussi appelé Étang de Lacanau, est situé sur la commune de Lacanau. Ce lac est long de 7 km sur 3 de large. Parmi les lacs étudiés, il est le deuxième en partant du Nord.
                         Ce lac est relié au lac de Carcans-Hourtin (au nord) et au bassin d’Arcachon (au sud) par le canal des Etangs.
                     </p>
-                    <br/>
+                    
                     <p>
                         <a href="http://aappma-lacanau.over-blog.fr/"/>AAPPMA</a> (Association Agréée pour la Pêche et la Protection du Milieu Aquatique).
                     </p>
-                    <br/>
+
                     <p>
-                        <!-- tableau -->
+                        <a href=# onclick="afficher()"> Où se trouve ce lac ? </a>
+                    </p>
+                    
+                    <p>
                         <table class="table table-bordered table-striped table-condensed">
                             <caption>
                                 <strong>Caractéristiques du lac Lacanau</strong>
@@ -57,22 +54,36 @@
                                     <td>Catégorie de pêche</td>
                                     <td> 2ème catégorie</td>
                                 </tr>
+                                <!--
+                                <tr>
+                                    <td> Pour créer une nouvelle ligne au tableau insérer ici l'intitulé </td>
+                                    <td> et ici le contenu et supprimer le <!- - du début et le - -> de la fin</td>
+                                </tr>
+                                -->
                             </tbody>
                         </table>
                     </p>
+
+                    <!--
+                    <p>
+                        Pour créer un nouveau paragraphe, insérer ici votre texte et supprimer le <!- - du début et le - -> de la fin
+                    </p>
+                    -->
                 </div>
             </div>
-        <!-- </div> -->
+        </div>
+
 
         <div class="position">
             <?php include "footer.php"; ?>
         </div>
 
-        <!--Scripts Bootstrap -->
+
+        <!--Scripts js -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="../bootstrap/js/bootstrap.min.js"></script>
         <script src="lib/jquery/jquery.min.js"></script>
-        <script src="script.js"></script>
+        <script src="../js/lac.js"></script>
     </body>
 
 </html>

@@ -43,16 +43,28 @@
 					<li>
 						Quels impacts cette pollution peut avoir sur la population humaine et quelle est la perception des consommateurs (volet 6) ?
 					</li>
+					<!--
+					<li>
+						Pour créer un nouveau point, insérer ici votre texte et supprimer le <!- - du début et le - -> de la fin
+					</li>
+					-->
 				</ul>
 			</p>
+
+			<!--
+			<p>
+				Pour créer un nouveau paragraphe, insérer ici votre texte et supprimer le <!- - du début et le - -> de la fin
+			</p>
+			-->
 		</div>
 		
 
 		<div class="position">
 			<?php include "footer.php"; ?>
 		</div>
+
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="../bootstrap/js/bootstrap.min.js"></script>
 	</body>
-
 </html>

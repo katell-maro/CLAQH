@@ -1,3 +1,4 @@
+/* MENU VERTICAL */
 .voletContainer.container {
 	margin-left : 0;
 	margin-top : 0;
@@ -5,23 +6,14 @@
 	height: 100%;
 }
 
-.col-menu {
-	padding: 0;
-	margin-left : 0;
-	margin-top : 0;
-}
-
-.footer-container {
-	padding: 0;
-}
-
-
 .vertical-menu {
 	width: inherit;
 	height: 100%;
 	position :fixed;
-	background-color: #f2f2f2; /*#ffffff;*/
-	box-shadow : 3px 0px 5px gray;
+	background-color: #d9d9d9;
+	border-width : 1px;
+	border-color : #adadad;
+	border-style : none solid none none;
 	font-size : 20px;
 	display : flex;
 	flex-direction: column;
@@ -42,10 +34,12 @@
 }
 
 .vertical-menu a.active {
-    background-color: #034f84;
+    background-color: #353d76;
     color: white;
 }
 
+
+/*EN SAVOIR PLUS*/
 .details {
 	display : none;
 }
@@ -70,10 +64,8 @@
 	margin-top: 10px;
 }
 
-.equipeVolet {
-	margin-bottom: 20px;
-}
 
+/*GALERIE PHOTO*/
 .galerie {
 	display : flex;
 	justify-content : space-around;
@@ -92,49 +84,15 @@
 }
 
 
-
-
-/*.galerie {
-	height: 100px;
-	margin-bottom: 30px;
+/*AUTRE*/
+.equipeVolet {
+	margin-bottom: 20px;
 }
 
-
-.galerie li{
-     position:relative;
-     float:left;
-     height:100px;
-     width : 150px;
-     padding:10px;
-     list-style:none;
+#textVolet {
+    margin-right :0px;
 }
 
-/*permet de créer deux lignes
-.galerie li:nth-child(4n){
-	clear:left;
-} *
-          
-.galerie li img{
-	display:block;
-	overflow:hidden;
-	margin-top:5px;
-	margin-left:0px;
-	transition-property:width,height,margin,z-index,border;
-
-	position:absolute;
-	height:100px;
-	z-index:20;
-	/*transition-property:width,height,z-index;*
-	transition-duration:0.4s;
+.footer-container {
+	padding: 0;
 }
-          
-.galerie li img:hover{
-	position:absolute;
-	margin-top:-28px;
-	margin-left:-28px;
-	margin-bottom: -28px;
-	margin-right: -28px;
-
-	height:200px;
-	z-index:100;
-}*/

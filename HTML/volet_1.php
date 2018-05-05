@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title> CLAQH </title>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> CLAQH - Volet 1</title>
 		<link rel="icon" href="../IMG/logoTransparentSansTitre.png"  type="image/png">
 		<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="../CSS/nav_style.css">
@@ -32,7 +32,7 @@
 				<div class="contenu col-md-10 col-sm-10 col-xs-10">
 					<h1>Étudier la répartition des métaux traces dans les poissons des 4 lacs</h1>
 
-					<h2> Objectif</h2>
+					<h2> Objectifs</h2>
 					<p class="texteVolet">
 						Cette étude permet de faire un état des lieux des concentrations en divers métaux traces dans les poissons afin de mieux connaître et suivre la qualité des milieux dans les 4 lacs.
 					</p>
@@ -44,10 +44,22 @@
 								La première année sur une période courte de 2 mois, les 4 lacs sont échantillonnés simultanément et toutes les espèces de poissons ainsi que toutes les sources potentielles de nourriture seront prélevées, afin de faire une étude de la présence des métaux traces en comparant les 4 lacs.
 							</li>
 							<li>
-								La deuxième année, un focus est effectué sur une seule espèce de poisson retenue à partir des résultats de la première année. Cette espèce ainsi que sa nourriture seront prélevées sur un seul lac sur les quatre saisons, afin de mettre en évidence un éventuel impact de la saison sur la présence de métaux traces dans la chair de poissons.
+								La deuxième année, un focus est effectué sur une seule espèce de poisson retenue à partir des résultats de la première année. Cette espèce ainsi que sa nourriture seront prélevées sur un seul lac sur les 4 saisons, afin de mettre en évidence un éventuel impact de la saison sur la présence de métaux traces dans la chair de poissons.
 							</li>
+							<!--
+							<li>
+								Pour créer un nouveau point, insérer ici votre texte et supprimer le <!- - du début et le - -> de la fin
+							</li>
+							-->
 						</ul>
 					</p>
+
+					<!--
+					<p class="texteVolet">
+						Pour créer un nouveau paragraphe à la partie objectif, insérer ici votre texte et supprimer le <!- - du début et le - -> de la fin
+					</p>
+					-->
+
 
 					<h3>Équipe de recherche</h3>
 					<p class="equipeVolet">
@@ -57,29 +69,6 @@
 					</p>
 
 
-<!--
-	<ul class="galerie">
-					    	<li>
-						        <img  src="../IMG/volet1-a.jpg"/>
-						    </li>
-						    <li>
-						        <img  src="../IMG/volet1-b.jpg"/>
-						    </li>
-						    <li>
-						        <img  src="../IMG/volet1-c.jpg"/>
-						    </li>
-						    <li>
-						        <img  src="../IMG/volet1-d.jpg"/>
-						    </li>
-						    <li>
-						        <img  src="../IMG/volet1-e.jpg"/>
-						    </li>
-						    <li>
-						        <img  src="../IMG/volet1-f.jpg"/>
-						    </li>
-						</ul>
-					-->
-
 					<div class="galerie">
 				        <img  src="../IMG/volet1-a.jpg"/>
 				        <img  src="../IMG/volet1-b.jpg"/>
@@ -87,18 +76,18 @@
 				        <img  src="../IMG/volet1-d.jpg"/>
 				        <img  src="../IMG/volet1-e.jpg"/>
 				        <img  src="../IMG/volet1-f.jpg"/>
+				        <!-- <img src="../IMG/inserer ici le nom de l'image que vous souhaitez faire apparaitre dans la galerie (cette image devra être placer dans le dossier IMG)" et supprimer le <!- - du début et le - -> de la fin/> -->
 					</div>
-
 					
 
 					<a class="btn_details" href="javascript: enSavoirPlus('details1');">En savoir plus<b class="caret"></b></a>
 					<div class="details" id="details1">
 						<p>
-							Un important effort de pêche est mis en œuvre sur les 4 lacs. Ceci afin d’une part d’obtenir suffisamment d’espèces bien représentées pour pouvoir comparer les 4 lacs. Il est nécessaire de pêcher des espèces de différents niveaux trophiques (poissons carnassiers, omnivores, benthivores, etc.). Chaque niveau trophique présente un grand intérêt pour comprendre d’une part les processus de diffusion des métaux traces dans un lac et d’autre part pour mieux tracer leur origine. Plusieurs types de pêche sont pratiqués (pêche au trémail, à la ligne, nasse …).
-
+							Un important effort de pêche est mis en œuvre sur les 4 lacs. Ceci afin d’obtenir suffisamment d’espèces bien représentées pour pouvoir comparer les 4 lacs. Il est nécessaire de pêcher des espèces de différents niveaux trophiques (poissons carnassiers, omnivores, benthivores, etc.). Chaque niveau trophique présente un grand intérêt pour comprendre d’une part les processus de diffusion des métaux traces dans un lac, et d’autre part pour mieux tracer leur origine. Plusieurs types de pêche sont pratiqués (pêche au trémail, à la ligne, nasse …).
 						</p>
+
 						<p>
-							Nous profitons de cet échantillonnage exhaustif pour analyser les concentrations d’une douzaine de métaux traces, car peu de données de ce type sont disponibles sur l’ichtyofaune de ces sites. Afin d’optimiser la collecte des échantillons de poissons et pouvoir envisager des analyses complémentaires si nécessaire, une dissection complète de chaque individu est effectuée pour afin de pouvoir réaliser les relevés et analyses suivants :
+							Nous profitons de cet échantillonnage exhaustif pour analyser les concentrations d’une douzaine de métaux traces, car peu de données de ce type sont disponibles sur l’ichtyofaune de ces sites. Afin d’optimiser la collecte des échantillons de poissons et pouvoir envisager des analyses complémentaires si nécessaire, une dissection complète de chaque individu est effectuée afin de pouvoir réaliser les relevés et analyses suivants :
 
 							<ul>
 								<li>
@@ -116,9 +105,19 @@
 								<li>
 									Analyse du niveau trophique par l’étude des isotopes stables du carbone (δ13C) et de l’azote (δ15N) dans le muscle et étude du contenu stomacal. En parallèle, un effort d’échantillonnage sera effectué sur les sources alimentaires des poissons (crustacés, mollusques, plantes, biofilm, etc.).
 								</li>
+								<!--
+								<li>
+									Pour créer un nouveau point, insérer ici votre texte et supprimer le <!- - du début et le - -> de la fin
+								</li>
+								-->
 							</ul>
 						</p>
 						
+						<!--
+						<p>
+							Pour créer un nouveau paragraphe à la partie en savoir plus, insérer ici votre texte et supprimer le <!- - du début et le - -> de la fin
+						</p>
+						-->
 					</div>
 
 				</div>
@@ -126,6 +125,6 @@
 		</div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    	<script src="../bootstrap/js/bootstrap.min.js"></script>
 	</body>
 </html>

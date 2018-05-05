@@ -13,14 +13,24 @@
     <body>
         <?php include_once 'navigation.html'; ?> 
 
-		<h1> Nous contacter </h1>
-		<p>
-			test				
-		</p>
+        <div class="contenu">
+			<h1> Nous contacter </h1>
+			<p>
+				Pour avoir plus d'informations sur le projet vous pouvez joindre la porteuse du projet CLAQH Régine Maury-Brachet à l'adresse mail regine.maury-brachet@u-bordeaux.fr.				
+			</p>
+
+			<!--
+			<p>
+				Pour créer un nouveau paragraphe, insérer ici votre texte et supprimer le <!- - du début et le - -> de la fin
+			</p>
+			-->
+		</div>
+
         
 		<div class="position">
 			<?php include "footer.php"; ?>
 		</div>
+
 		
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="../bootstrap/js/bootstrap.min.js"></script>

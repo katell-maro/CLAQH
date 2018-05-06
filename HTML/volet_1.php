@@ -28,7 +28,7 @@
 
 					<h2> Objectifs</h2>
 					<p class="texteVolet">
-						Cette étude permet de faire un état des lieux des concentrations en divers métaux traces dans les poissons afin de mieux connaître et suivre la qualité des milieux dans les 4 lacs.
+						Cette étude permet de faire un état des lieux des concentrations en divers <span class="aDefinir" onmouseover="definitionVisible(this);" onmouseleave="definitionCache(this)">métaux traces <span class="definition cache"> Ensemble des métaux suivants : l’aluminium, l’arsenic, le cadmium, le chrome, le cuivre, l’étain, le fer, le manganèse, le mercure, le nickel, le plomb, le sélénium et le zinc </span></span> dans les poissons afin de mieux connaître et suivre la qualité des milieux dans les 4 lacs.
 					</p>
 
 					<p class="texteVolet">
@@ -77,15 +77,15 @@
 					<a class="btn_details" onclick="enSavoirPlus('details1');" href="#details1">En savoir plus<b class="caret"></b></a>
 					<div class="details" id="details1">
 						<p>
-							Un important effort de pêche est mis en œuvre sur les 4 lacs. Ceci afin d’obtenir suffisamment d’espèces bien représentées pour pouvoir comparer les 4 lacs. Il est nécessaire de pêcher des espèces de différents niveaux trophiques (poissons carnassiers, omnivores, benthivores, etc.). Chaque niveau trophique présente un grand intérêt pour comprendre d’une part les processus de diffusion des métaux traces dans un lac, et d’autre part pour mieux tracer leur origine. Plusieurs types de pêche sont pratiqués (pêche au trémail, à la ligne, nasse …).
+							Un important effort de pêche est mis en œuvre sur les 4 lacs. Ceci afin d’obtenir suffisamment d’espèces bien représentées pour pouvoir comparer les 4 lacs. Il est nécessaire de pêcher des espèces de différents <span class="aDefinir" onmouseover="definitionVisible(this);" onmouseleave="definitionCache(this)">niveaux trophiques <span class="definition cache">Correspond à une situation (producteur, consommateur) dans la chaîne alimentaire. Les niveaux trophiques sont au nombre de 3 : producteurs primaires, consommateurs (herbivores, carnivores) et les décomposeurs.</span></span> (poissons <span class="aDefinir" onmouseover="definitionVisible(this);" onmouseleave="definitionCache(this)">carnassiers <span class="definition cache">poissons qui chassent et se nourrissent de proies vivantes</span></span>, <span class="aDefinir" onmouseover="definitionVisible(this);" onmouseleave="definitionCache(this)">omnivores <span class="definition cache"> poissons opportunistes, se nourrissent de végétaux, de larves d’insectes, de crustacés et de mollusques.</span></span>, <span class="aDefinir" onmouseover="definitionVisible(this);" onmouseleave="definitionCache(this)">benthivores <span class="definition cache">se nourrissent de détritus organiques ou de petites proies vivant dans les couches superficielles du sédiment.</span></span>, etc.). Chaque niveau trophique présente un grand intérêt pour comprendre d’une part les processus de diffusion des métaux traces dans un lac, et d’autre part pour mieux tracer leur origine. Plusieurs types de pêche sont pratiqués (pêche au trémail, à la ligne, nasse …).
 						</p>
 
 						<p>
-							Nous profitons de cet échantillonnage exhaustif pour analyser les concentrations d’une douzaine de métaux traces, car peu de données de ce type sont disponibles sur l’ichtyofaune de ces sites. Afin d’optimiser la collecte des échantillons de poissons et pouvoir envisager des analyses complémentaires si nécessaire, une dissection complète de chaque individu est effectuée afin de pouvoir réaliser les relevés et analyses suivants :
+							Nous profitons de cet échantillonnage exhaustif pour analyser les concentrations d’une douzaine de métaux traces, car peu de données de ce type sont disponibles sur l’<span class="aDefinir" onmouseover="definitionVisible(this);" onmouseleave="definitionCache(this)">ichtyofaune<span class="definition cache">ensemble des poissons d'un écosystème aquatique.</span></span> de ces sites. Afin d’optimiser la collecte des échantillons de poissons et pouvoir envisager des analyses complémentaires si nécessaire, une dissection complète de chaque individu est effectuée afin de pouvoir réaliser les relevés et analyses suivants :
 
 							<ul>
 								<li>
-									Relevé de paramètres biométriques : longueur standard et totale, poids total du poisson et de chaque organe, indice de condition de Fulton, détermination du sexe.
+									Relevé de paramètres biométriques : longueur standard et totale, poids total du poisson et de chaque organe, <span class="aDefinir" onmouseover="definitionVisible(this);" onmouseleave="definitionCache(this)">indice de condition de Fulton<span class="definition cache"> coefficient révélant l'état physiologique des poissons d'une même espèce, qui indique, entre autres, leur capacité de reproduction. </span></span>, détermination du sexe.
 								</li>
 								<li>
 									Dissection et conservation des principaux organes : muscle, foie, rein, estomac, cerveau, intestin, etc.

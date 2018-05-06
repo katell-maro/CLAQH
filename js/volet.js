@@ -9,3 +9,16 @@ function enSavoirPlus(elmt) {
       elmt.style.display = "block";
   }
 }
+
+
+function definitionVisible(elmt) {
+	var aDefinir = $(elmt);
+	var definition = aDefinir.children(".definition");
+	definition.removeClass('cache');
+}
+
+function definitionCache(elmt) {
+	var aDefinir = $(elmt);
+	var definition = aDefinir.children(".definition");
+	definition.addClass('cache');
+}

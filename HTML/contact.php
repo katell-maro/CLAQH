@@ -11,7 +11,7 @@
         <div class="contenu">
 			<h1> Nous contacter </h1>
 			<p>
-				Pour avoir plus d'informations sur le projet vous pouvez joindre la porteuse du projet CLAQH Régine Maury-Brachet à l'adresse mail regine.maury-brachet@u-bordeaux.fr.				
+				Pour avoir plus d'informations sur le projet vous pouvez joindre la chef du projet CLAQH Régine Maury-Brachet à l'adresse mail regine.maury-brachet@u-bordeaux.fr.				
 			</p>
 
 			<!--

@@ -151,3 +151,30 @@ a:active {
   align-items: center;
   justify-content: center;
 }
+
+
+/*DEFINITION*/
+.aDefinir {
+  position: relative;
+  color: #0275d8;
+}
+
+.definition {
+  text-align: left;
+  font-size: 15px;
+  color : black;
+  transform: scale(1);
+  padding : 10px;
+  position: absolute;
+  z-index: 12;
+  top: 100%;
+  left: 0;
+  width : 200px;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+.cache {
+  transform: scale(0);
+}

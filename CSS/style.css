@@ -29,6 +29,7 @@ body {
   padding-left: 7%;
   min-height: calc(100vh - 140px);
   padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 
@@ -91,8 +92,14 @@ a:active {
 }
 
 .imgLac {
-  max-width : 450px;
-  max-height: 450px;
+  max-height: 400px;
+  max-width: 450px;
+}
+
+.conteneur_lac, .conteneur_img_lac {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -131,4 +138,16 @@ a:active {
   .footer {
     display : none;
   }
+}
+
+
+/*PARTENAIRES*/
+.logo_page_parten {
+  height: 100px;
+}
+
+.contenu_page_parten, .contenu_page_parten > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

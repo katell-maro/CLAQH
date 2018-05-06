@@ -8,3 +8,6 @@
   <img class="logo_part" src="../IMG/universite_bordeaux.png" alt="L'Université de Bordeaux" width=100px>
   <img class="logo_part" src="../IMG/universite_pau.png" alt="L'Université de Pau et des pays de l’Adour" width=100px>
 </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>

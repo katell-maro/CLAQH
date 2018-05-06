@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8"/>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<?php include_once 'head.php'; ?>
 		<title> CLAQH - Volet 6</title>
-		<link rel="icon" href="../IMG/logoTransparentSansTitre.png"  type="image/png">
-		<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="../CSS/style.css">
 		<link rel="stylesheet" href="../CSS/volet_style.css">
-		<link rel="stylesheet" href="../CSS/nav_style.css">
 		<script src="../js/volet.js"></script>
 	</head>
 
 	<body>
-    <?php include_once 'navigation.html'; ?>
+    <?php include_once 'navigation.php'; ?>
 
 		<div class="voletContainer container">
 			<div class="row">
@@ -100,8 +94,8 @@
 					</div>
 
 
-					<a class="btn_details" href="javascript: enSavoirPlus('details3');">En savoir plus<b class="caret"></b></a>
-					<div class="details" id="details3">
+					<a class="btn_details" onclick="enSavoirPlus('details6');" href="#details6">En savoir plus<b class="caret"></b></a>
+					<div class="details" id="details6">
 						<p>
 							Les résultats de ce volet 6 doivent permettre d’appréhender : l’impact de la présence de métaux traces (mercure notamment) sur la population locale et touristique et de permettre aux acteurs locaux et aux instances publiques de prendre de nouvelles mesures.
 						</p>

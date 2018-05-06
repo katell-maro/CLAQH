@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8"/>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<?php include_once 'head.php'; ?>
 		<title> CLAQH - Volet 2</title>
-		<link rel="icon" href="../IMG/logoTransparentSansTitre.png"  type="image/png">
-		<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="../CSS/style.css">
 		<link rel="stylesheet" href="../CSS/volet_style.css">
-		<link rel="stylesheet" href="../CSS/nav_style.css">
 		<script src="../js/volet.js"></script>
 	</head>
 
 	<body>
-    	<?php include_once 'navigation.html'; ?>
+    	<?php include_once 'navigation.php'; ?>
 
     	
 		<div class="voletContainer container">
@@ -70,7 +64,7 @@
 					</div>
 
 
-					<a class="btn_details" href="javascript: enSavoirPlus('details2');">En savoir plus<b class="caret"></b></a>
+					<a class="btn_details" onclick="enSavoirPlus('details2');" href="#details2">En savoir plus<b class="caret"></b></a>
 					<div class="details" id="details2">
 						<p>
 							Le Hg tend à s'accumuler dans les sédiments par précipitation/sorption/floculation puis sédimentation. Les sédiments constituent donc un réservoir de Hg dans lesquels certaines bactéries anaérobies, principalement les bactéries sulfato-réductrices, sont responsables de la production de méthylmercure. Une mise en suspension des sédiments par des phénomènes naturels (bioturbations, tempêtes) ou anthropiques va favoriser le passage de ce méthylmercure dans les chaînes alimentaires. Certaines données récentes font état de la présence de ces bactéries sulfato-réductrices au niveau des racines de plantes aquatiques dans la colonne d'eau où elles présenteraient de fortes activités de méthylation, y compris au niveau des lacs Landais. Ces microenvironnements, riches en polymères organiques sont connus pour leur faculté à accumuler les éléments métalliques, dont le Hg inorganique. La présence de sulfato-réducteurs et leur activité de méthylation du Hg dans ces micro-écosystèmes (périphyton à la surface des racines) pourrait faciliter le transfert de ce métal vers les niveaux supérieurs de la chaîne trophique, par l'intermédiaire d'organismes périphytophages (qui consomment le périphyton et qui ne broutent pas les plantes). 
@@ -89,8 +83,9 @@
 				</div>
 			</div>
 		</div>
-
+		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    	<script src="../bootstrap/js/bootstrap.min.js"></script>
+		<script src="../bootstrap/js/bootstrap.min.js"></script>
+		
 	</body>
 </html>

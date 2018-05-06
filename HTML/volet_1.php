@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8"/>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<?php include_once 'head.php'; ?>
 		<title> CLAQH - Volet 1</title>
-		<link rel="icon" href="../IMG/logoTransparentSansTitre.png"  type="image/png">
-		<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="../CSS/nav_style.css">
-		<link rel="stylesheet" href="../CSS/style.css">
 		<link rel="stylesheet" href="../CSS/volet_style.css">
 		<script src="../js/volet.js"></script>
 	</head>
 
 	<body>
-    <?php include_once 'navigation.html'; ?>
+    <?php include_once 'navigation.php'; ?>
 
 		<div class="voletContainer container">
 			<div class="row">
@@ -80,7 +74,7 @@
 					</div>
 					
 
-					<a class="btn_details" href="javascript: enSavoirPlus('details1');">En savoir plus<b class="caret"></b></a>
+					<a class="btn_details" onclick="enSavoirPlus('details1');" href="#details1">En savoir plus<b class="caret"></b></a>
 					<div class="details" id="details1">
 						<p>
 							Un important effort de pêche est mis en œuvre sur les 4 lacs. Ceci afin d’obtenir suffisamment d’espèces bien représentées pour pouvoir comparer les 4 lacs. Il est nécessaire de pêcher des espèces de différents niveaux trophiques (poissons carnassiers, omnivores, benthivores, etc.). Chaque niveau trophique présente un grand intérêt pour comprendre d’une part les processus de diffusion des métaux traces dans un lac, et d’autre part pour mieux tracer leur origine. Plusieurs types de pêche sont pratiqués (pêche au trémail, à la ligne, nasse …).
@@ -125,6 +119,7 @@
 		</div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    	<script src="../bootstrap/js/bootstrap.min.js"></script>
+		<script src="../bootstrap/js/bootstrap.min.js"></script>
+		
 	</body>
 </html>

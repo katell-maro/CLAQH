@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8"/>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title> CLAQH - Volet 3 </title>
-		<link rel="icon" href="../IMG/logoTransparentSansTitre.png"  type="image/png">
-		<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="../CSS/style.css">
+		<?php include_once 'head.php'; ?>
+		<title> CLAQH - Volet 3</title>
 		<link rel="stylesheet" href="../CSS/volet_style.css">
-		<link rel="stylesheet" href="../CSS/nav_style.css">
 		<script src="../js/volet.js"></script>
 	</head>
 
 	<body>
-    <?php include_once 'navigation.html'; ?>
+    <?php include_once 'navigation.php'; ?>
 
 		<div class="voletContainer container">
 			<div class="row">
@@ -73,7 +67,7 @@
 					</div>
 
 
-					<a class="btn_details" href="javascript: enSavoirPlus('details3');">En savoir plus<b class="caret"></b></a>
+					<a class="btn_details" onclick="enSavoirPlus('details3');" href="#details3">En savoir plus<b class="caret"></b></a>
 					<div class="details" id="details3">
 						<p>
 							À l’échelle globale, les sources anthropiques du mercure (Hg) atmosphérique dominent largement les sources naturelles avec une contribution d’environ 50-75% du Hg total. À l’échelle locale, les différentes sources potentielles anthropiques du Hg engendrent des contaminations locales des systèmes aquatiques. Néanmoins, même s’il est possible de mettre en évidence la contamination liée au Hg dans un échantillon ou un écosystème en analysant sa concentration en Hg total, il n’est pas possible de déterminer précisément l’origine de ce Hg. Les systèmes aquatiques étant un lieu privilégié pour les transformations bio-physico-chimiques (photoréduction, méthylation/déméthylation) du Hg ainsi que pour sa bioaccumulation dans les réseaux trophiques, plusieurs études se sont intéressées à la composition isotopique du Hg dans la faune des écosystèmes aquatiques. Ces études montrent que la signature isotopique du Hg est préservée dans les poissons et apportent des informations précieuses sur les mécanismes d’accumulation dans les réseaux trophiques.
@@ -95,6 +89,7 @@
 		</div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    	<script src="../bootstrap/js/bootstrap.min.js"></script>
+		<script src="../bootstrap/js/bootstrap.min.js"></script>
+		
 	</body>
 </html>

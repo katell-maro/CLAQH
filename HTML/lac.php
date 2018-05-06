@@ -1,22 +1,16 @@
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="../IMG/logoTransparentSansTitre.png"  type="image/png">
-        <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="../CSS/style.css" rel="stylesheet">
-        <link rel="stylesheet" href="../CSS/nav_style.css">	
+        <?php include_once 'head.php'; ?>
         <title>CLAQH - Lac Biscarosse-Parentis </title>
+        
     </head>
 
     <body>
-        <?php include_once 'navigation.html'; ?>
+        <?php include_once 'navigation.php'; ?>
 
         <div class="contenu">
-            <div class="row">
-                <div class="col-lg-6">
-                    <br/><br/><br/>
+            <div class="conteneur_lac row">
+                <div class="conteneur_img_lac col-lg-6">
                     <img class="imgLac" src="../IMG/lac-BP.jpg"/>
                     <img class="carte imgLac" src="../IMG/carte-BP.jpg"/>
                 </div>
@@ -80,11 +74,7 @@
         <div class="position">
             <?php include "footer.php"; ?>
         </div>
-
-        <!--Scripts JS -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="../bootstrap/js/bootstrap.min.js"></script>
-        <script src="../jquery/jquery.min.js"></script>
+        
         <script src="../js/lac.js"></script>
     </body>
 </html>

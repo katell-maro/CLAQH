@@ -1,21 +1,15 @@
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="../IMG/logoTransparentSansTitre.png"  type="image/png">
-        <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="../CSS/style.css" rel="stylesheet">
-        <link rel="stylesheet" href="../CSS/nav_style.css">	
+        <?php include_once 'head.php'; ?>
         <title>CLAQH - Lac Sanguinet</title>
     </head>
 
     <body>
-        <?php include_once 'navigation.html'; ?>
+        <?php include_once 'navigation.php'; ?>
 
         <div class="contenu">
-            <div class="row">
-                <div class="col-lg-6">
+            <div class="conteneur_lac row">
+                <div class="conteneur_img_lac col-lg-6">
                     <img class="imgLac" src="../IMG/SANGUINET.jpg"/>
                     <img class="carte imgLac" src="../IMG/carte-S.png"/>
                 </div>
@@ -78,11 +72,6 @@
             <?php include "footer.php"; ?>
         </div>
 
-
-        <!--Scripts js -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="../bootstrap/js/bootstrap.min.js"></script>
-        <script src="lib/jquery/jquery.min.js"></script>
         <script src="../js/lac.js"></script>
     </body>
 

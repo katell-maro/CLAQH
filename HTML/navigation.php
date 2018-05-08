@@ -9,7 +9,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
             </button>
-            <a href="accueil.php" class="navbar-brand-left visible-xs visible-sm"><img src=<?= getRoot()."/IMG/logoTransparent.png" ?> width="15%"></a>
+            <a href=<?= getRoot()."index.php" ?> class="navbar-brand-left visible-xs visible-sm"><img src=<?= getRoot()."/IMG/logoTransparent.png" ?> width="15%"></a>
         </div>
 		
         <div class="collapse navbar-collapse" id="navbar-collapse-target">
@@ -29,7 +29,7 @@
 								<ul class="dropdown-menu"> 
 									<li><a href=<?= getHtmlFolder()."lacCH.php" ?>>Lac de Carcans-Hourtin</a></li>
 									<li><a href=<?= getHtmlFolder()."lacL.php" ?>>Lac de Lacanau</a></li>
-									<li><a href=<?= getHtmlFolder()."lacS.php" ?>>Lac de Sanguinet</a></li>
+									<li><a href=<?= getHtmlFolder()."lacS.php" ?>>Lac de Cazaux-Sanguinet</a></li>
 									<li><a href=<?= getHtmlFolder()."lac.php" ?>>Lac de Biscarosse-Parentis</a></li>
 								</ul>
 							</li>

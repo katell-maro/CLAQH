@@ -41,7 +41,7 @@
 								Faire une étude comparative au niveau des lacs landais pour mieux comprendre le fonctionnement biogéochimique de chaque lac.
 							</li>
 							<li>
-								Mesurer l’ensemble des paramètres pour caractériser la biogéochimie de chaque lac, les concentrations en Hg total au niveau des échantillons de sédiments collectés et en méthylmercure seulement pour les échantillons chargés en matière organique.
+								Mesurer l’ensemble des paramètres pour caractériser la biogéochimie de chaque lac, les concentrations en Hg total au niveau des échantillons de sédiments collectés et en <span class="aDefinir" onmouseover="definitionVisible(this);" onmouseleave="definitionCache(this)">méthylmercure<span class="definition cache">Forme organique la plus toxique du mercure</span></span> seulement pour les échantillons chargés en matière organique.
 							</li>
 							<!--
 							<li>
@@ -52,7 +52,7 @@
           			</p>
 
           			<p class="texteVolet">
-						Ainsi, il sera possible d’évaluer la quantité potentielle de méthylmercure produite au niveau de chaque lac au niveau de l’interface eau-sédiment et pourra nous éclairer sur les différences de présence observées entre les 4 lacs.
+						Ainsi, il sera possible d’évaluer la quantité potentielle de <span class="aDefinir" onmouseover="definitionVisible(this);" onmouseleave="definitionCache(this)">méthylmercure<span class="definition cache">Forme organique la plus toxique du mercure</span></span> produite au niveau de chaque lac au niveau de l’interface eau-sédiment et pourra nous éclairer sur les différences de présence observées entre les 4 lacs.
           			</p>
 
           			<!--
@@ -98,8 +98,7 @@
 			</div>
 		</div>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script src="../bootstrap/js/bootstrap.min.js"></script>
+		<?php include 'scriptBootstrap.php'; ?>
 
 	</body>
 </html>

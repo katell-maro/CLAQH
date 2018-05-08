@@ -57,7 +57,7 @@
 								Quel est le ressenti des populations suite à l’affichage déjà mis en place ?
 							</li>
 							<li>
-								Quel est leur sentiment par rapport aux risques d’exposition au Hg par les sandres ? 
+								Quel est leur sentiment par rapport aux risques d’exposition au mercure (Hg) par les sandres ? 
 							</li>
 							<li>
 								Évaluer la connaissance des différentes populations par rapport à cette problématique et quel est le niveau d’information de la population ?
@@ -97,7 +97,7 @@
 					<a class="btn_details" onclick="enSavoirPlus('details6');" href="#details6">En savoir plus<b class="caret"></b></a>
 					<div class="details" id="details6">
 						<p>
-							Les résultats de ce volet 6 doivent permettre d’appréhender : l’impact de la présence de métaux traces (mercure notamment) sur la population locale et touristique et de permettre aux acteurs locaux et aux instances publiques de prendre de nouvelles mesures.
+							Les résultats de ce volet 6 doivent permettre d’appréhender : l’impact de la présence de <span class="aDefinir" onmouseover="definitionVisible(this);" onmouseleave="definitionCache(this)">métaux traces <span class="definition cache"> Ensemble des métaux suivants : l’aluminium, l’arsenic, le cadmium, le chrome, le cuivre, l’étain, le fer, le manganèse, le mercure, le nickel, le plomb, le sélénium et le zinc </span></span> (mercure notamment) sur la population locale et touristique et de permettre aux acteurs locaux et aux instances publiques de prendre de nouvelles mesures.
 						</p>
 
 						<p>
@@ -131,7 +131,6 @@
 			</div>
 		</div>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    	<script src="../bootstrap/js/bootstrap.min.js"></script>
+		<?php include 'scriptBootstrap.php'; ?>
 	</body>
 </html>

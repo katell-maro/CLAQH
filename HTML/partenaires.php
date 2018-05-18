@@ -29,6 +29,19 @@
 
 			<div class="contenu_page_parten row">
 				<div class="col-md-3">
+					<img class="logo_page_parten" src="../IMG/aquitaine.jpg" alt="La nouvelle Aquitaine">
+				</div>
+				<div class="col-md-9">
+					<p>
+						La Nouvelle-Aquitaine est une région administrative française, elle regroupe les anciennes régions Aquitaine, Limousin et Poitou-Charentes. Elle est composé de 12 départements, s’étend sur 84 061 kilomètres carrés, soit un huitième du territoire national, et compte 5 911 482 habitants (population municipale au 1er janvier 2015).
+						<br>
+						<a href="https://www.nouvelle-aquitaine.fr/">https://www.nouvelle-aquitaine.fr/</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="contenu_page_parten row">
+				<div class="col-md-3">
 					<img class="logo_page_parten" src="../IMG/irstea.png" alt="L'IRSTEA">
 				</div>
 				<div class="col-md-9">

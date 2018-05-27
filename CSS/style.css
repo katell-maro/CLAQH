@@ -1,7 +1,7 @@
 /*GENERAL*/
 @font-face{
   font-family: "Roboto";
-  src : url("../POLICE/Roboto.ttf/Roboto-light.ttf") format("truetype");
+  src : url("../LIB/POLICE/Roboto.ttf/Roboto-light.ttf") format("truetype");
 }
 
 * {

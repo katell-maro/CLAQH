@@ -64,10 +64,10 @@
 
 
 					<div class="galerie">
-				        <img  src="../IMG/volet1-a.jpg"/>
-				        <img  src="../IMG/volet1-b.jpg"/>
-				        <img  src="../IMG/volet1-c.jpg"/>
-				        <img  src="../IMG/volet1-d.jpg"/>
+				        <img  src="../IMG/volet1-a.JPG"/>
+				        <img  src="../IMG/volet1-b.JPG"/>
+				        <img  src="../IMG/volet1-c.JPG"/>
+				        <img  src="../IMG/volet1-d.JPG"/>
 				        <img  src="../IMG/volet1-e.jpg"/>
 				        <img  src="../IMG/volet1-f.jpg"/>
 				        <!-- <img src="../IMG/inserer ici le nom de l'image que vous souhaitez faire apparaitre dans la galerie (cette image devra être placer dans le dossier IMG)" et supprimer le <!- - du début et le - -> de la fin/> -->

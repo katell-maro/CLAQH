@@ -11,7 +11,7 @@
             <div class="conteneur_lac row">
                 <div class="conteneur_img_lac col-lg-6">
                     <p>
-                        <img class="imgLac" src="../IMG/HC.jpg"/>
+                        <img class="imgLac" src="../IMG/HC.JPG"/>
                         <img class="carte imgLac" src="../IMG/carte-CH.jpg"/>
                     </p>
                 </div>

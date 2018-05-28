@@ -10,7 +10,7 @@
         <div class="contenu">
             <div class="conteneur_lac row">
                 <div class="conteneur_img_lac col-lg-6">
-                    <img class="imgLac" src="../IMG/LACANAU_4.jpg"/>
+                    <img class="imgLac" src="../IMG/LACANAU_4.JPG"/>
                     <img class="carte imgLac" src="../IMG/carte-L.png"/>
                 </div>
 

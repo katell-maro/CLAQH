@@ -14,7 +14,7 @@
 
 
 <body>
-	<?php include_once 'HTML/navigation.php'; ?>
+	<?php include_once 'PAGES/navigation.php'; ?>
 	<div class="titre">
 		<h1>CLAQH</h1>
 		<p>Contamination polymétallique des Lacs Aquitains et impacts Humains</p>

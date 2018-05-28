@@ -1,39 +1,12 @@
+/*MISE EN PAGE*/
 .itemMenu {
   margin:0 72px;
   font-size: 20px;
   height: 70px;
 }
 
-#navbar {
-  background-color: #f2f2f2;
-  border-width : 1px;
-  border-color : #d9d9d9;
-  border-style : none none solid none;
-  min-height: 70px;
-}
-
 .navbar {
   margin-bottom: 0;
-}
-
-.dropdown-menu{
-  background-color : #f2f2f2;
-}
-
-.navbar-default .navbar-nav li a, .navbar-default .navbar-nav li a:visited {
-	color : #034f84/*white*/;
-	text-decoration : none;
-}
-
-.navbar-default .navbar-nav li a:hover{
-	color : #8c8c8c;
-	text-decoration : none;
-}
-
-.navbar-default .navbar-nav .open a:focus, .navbar-default .navbar-nav .open a:hover {
-	color : #8c8c8c;
-	background-color : #f2f2f2;
-	width : 100%;
 }
 
 #nav-container > .row {
@@ -52,6 +25,36 @@
   height: 100%;
   display: flex !important;
   align-items: center;
+}
+
+
+/*ESTHETIQUE*/
+#navbar {
+  background-color: #f2f2f2;
+  border-width : 1px;
+  border-color : #d9d9d9;
+  border-style : none none solid none;
+  min-height: 70px;
+}
+
+.dropdown-menu{
+  background-color : #f2f2f2;
+}
+
+.navbar-default .navbar-nav li a, .navbar-default .navbar-nav li a:visited {
+	color : #034f84;
+	text-decoration : none;
+}
+
+.navbar-default .navbar-nav li a:hover{
+	color : #8c8c8c;
+	text-decoration : none;
+}
+
+.navbar-default .navbar-nav .open a:focus, .navbar-default .navbar-nav .open a:hover {
+	color : #8c8c8c;
+	background-color : #f2f2f2;
+	width : 100%;
 }
 
 .dropdown-menu {
